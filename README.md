@@ -1,4 +1,4 @@
-# Emotion detection using deep learning
+# Real-Time-Facial-Expression-Recognition
 
 ## Introduction
 
