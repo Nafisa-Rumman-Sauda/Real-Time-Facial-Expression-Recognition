@@ -9,33 +9,6 @@ This project aims to classify the emotion on a person's face into one of **seven
 * Python 3, [OpenCV](https://opencv.org/), [Tensorflow](https://www.tensorflow.org/)
 * To install the required packages, run `pip install -r requirements.txt`.
 
-## Basic Usage
-
-The repository is currently compatible with `tensorflow-2.0` and makes use of the Keras API using the `tensorflow.keras` library.
-
-* First, clone the repository and enter the folder
-
-```bash
-git clone https://github.com/atulapra/Emotion-detection.git
-cd Emotion-detection
-```
-
-* Download the FER-2013 dataset inside the `src` folder.
-
-* If you want to train this model, use:  
-
-```bash
-cd src
-python emotions.py --mode train
-```
-
-* If you want to view the predictions without training again, you can download the pre-trained model from [here](https://drive.google.com/file/d/1FUn0XNOzf-nQV7QjbBPA6-8GLoHNNgv-/view?usp=sharing) and then run:  
-
-```bash
-cd src
-python emotions.py --mode display
-```
-
 * The folder structure is of the form:  
   src:
   * data (folder)
@@ -62,11 +35,3 @@ python emotions.py --mode display
 * The network outputs a list of **softmax scores** for the seven classes of emotions.
 
 * The emotion with maximum score is displayed on the screen.
-
-## References
-
-* "Challenges in Representation Learning: A report on three machine learning contests." I Goodfellow, D Erhan, PL Carrier, A Courville, M Mirza, B
-   Hamner, W Cukierski, Y Tang, DH Lee, Y Zhou, C Ramaiah, F Feng, R Li,  
-   X Wang, D Athanasakis, J Shawe-Taylor, M Milakov, J Park, R Ionescu,
-   M Popescu, C Grozea, J Bergstra, J Xie, L Romaszko, B Xu, Z Chuang, and
-   Y. Bengio. arXiv 2013.
