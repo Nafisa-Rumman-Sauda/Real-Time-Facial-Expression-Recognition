@@ -34,4 +34,8 @@ This project aims to classify the emotion on a person's face into one of **seven
 
 * The network outputs a list of **softmax scores** for the seven classes of emotions.
 
-* The emotion with maximum score is displayed on the screen.
+* The emotion with maximum score is displayed on the screen. 
+![Image](https://github.com/user-attachments/assets/736dbee4-80fd-4e5b-95f9-2ef73851df94)
+![Image](https://github.com/user-attachments/assets/421224fe-075e-412a-a77a-8d9c1357659e)
+![Image](https://github.com/user-attachments/assets/89f01ebd-c5c7-48fb-914a-832ee1ba3013)
+![Image](https://github.com/user-attachments/assets/2f889912-80cd-467d-baa0-58ded148933f)
